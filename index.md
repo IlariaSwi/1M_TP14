@@ -37,7 +37,7 @@ Les affichages à 7 segments permettent d’afficher des chiffres à l’aide de
 - Ajoutez les entrées et ajoutez les étiquettes a-g. Pour ajouter une étiquette: _click droit > set_name_.
 - Affichez un nombre entre 0 et 9.
 
-<iframe style="width: 100%; height: 347px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar,/?mode&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQiqgFYqAXSjkAJmD4EAhjibNp7ENIA2YAIwZK62g3lsOMbrygBOYaIkBmKDLksARswwPpAJxrB6jR+-acwLgAmdT5BEXENW1l5RSgxciQ4FWk6FgALZyhXNx0vPV83fyNAoIAOPnUgi0ig6PtmJ3jE5NSWECycoN0fRr9DbnK+IN4IiQAWevlMdgSklLTmDpd3Kx75HOLB0Kh1czGwfmb5tuZMtAwAd3I3Im4uSpEuGyChITQgA"></iframe>
+<iframe style="width: 120%; height: 500px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar,/?mode&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQiqgFYqAXSjkAJmD4EAhjibNp7ENIA2YAIwZK62g3lsOMbrygBOYaIkBmKDLksARswwPpAJxrB6jR+-acwLgAmdT5BEXENW1l5RSgxciQ4FWk6FgALZyhXNx0vPV83fyNAoIAOPnUgi0ig6PtmJ3jE5NSWECycoN0fRr9DbnK+IN4IiQAWevlMdgSklLTmDpd3Kx75HOLB0Kh1czGwfmb5tuZMtAwAd3I3Im4uSpEuGyChITQgA"></iframe>
 
 
 ### Affichage à 2 chiffres
@@ -48,7 +48,7 @@ Les 7 diodes lumineuses (LED) permettent d’afficher les chiffres de 0 à 9. L�
 - Connectez les deux automatiquement en alignant les broches
 - Configurez les entrées pour afficher le nombre 42
 
-<iframe style="width: 100%; height: 140px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=7seg,in.byte,/?mode&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQiqgHYqAXSjkAJiwCMAJgC0kgJzsARuTIAOKCACGAGxZVJkqoePMMzfkiIBzKs1oMml6zfacwXSbwHDRE5ipZfnMMAHdyACcibi9pKD8vAGYoSREvABYoaXTJAFYoJNzoDNz+KDzczQhchQEhITQgA"></iframe>
+<iframe style="width: 120%; height: 250px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=7seg,in.byte,/?mode&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQiqgHYqAXSjkAJiwCMAJgC0kgJzsARuTIAOKCACGAGxZVJkqoePMMzfkiIBzKs1oMml6zfacwXSbwHDRE5ipZfnMMAHdyACcibi9pKD8vAGYoSREvABYoaXTJAFYoJNzoDNz+KDzczQhchQEhITQgA"></iframe>
 
 
 ### Afficher 0 et 1
@@ -57,7 +57,7 @@ La porte NON inverse un signal.
 - Ajoutez les connexions pour afficher 0 ou 1 selon le signal sur l’entrée b0.
 - Ensuite, convertissez l'input en horologe, pour alterner 0 et 1 chaque seconde: _click droit > changer en horologe_
 
-<iframe style="width: 100%; height: 250px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoAjAFYqAXSjkAJmAH8CAQxxNmAC3IBzFexDyANjIlIAwoSQJ5pMAgBOAVyIZmPJEXVVmtBsuev2nMFwALHyCABxiEtLMVAC0PMwYBDAINMD0jCxJCH4w3ALhUIERlDIATLC2CDIAzBiUAp4ZrAQ53CFF4lIyAmgYAO7k1kTcXLKC4qMCgqUTAtVQYqJoQA"></iframe>
+<iframe style="width: 120%; height: 400px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoAjAFYqAXSjkAJmAH8CAQxxNmAC3IBzFexDyANjIlIAwoSQJ5pMAgBOAVyIZmPJEXVVmtBsuev2nMFwALHyCABxiEtLMVAC0PMwYBDAINMD0jCxJCH4w3ALhUIERlDIATLC2CDIAzBiUAp4ZrAQ53CFF4lIyAmgYAO7k1kTcXLKC4qMCgqUTAtVQYqJoQA"></iframe>
 
 ### Décoder 0 à 3
 Le tableau ci-dessous montre les segments à allumer pour afficher les nombres 0 à 3 d’un affichage à 7 segments.
@@ -79,7 +79,7 @@ Astuce - Essayez de trouver le circuit logique pour chaque colonne. C’est-à-d
 
 Certaines colonnes sont identiques, donc vous pouvez utiliser le même signal.
 
-<iframe style="width: 100%; height: 270px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,and,or,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoALFQC6UcgBMwADigEAhjibMARlWYZKARloMlbDjG58oAThFjJJ2QqXLN6sQQBMOxi32cwvfpoCs5iTBNfnlFFgALcgBzcPYQOQAbILEkAGFCJAQ5UjAEACcAVyIMZh4kIii1VyUyivZPLgFjTSkAyWYqAFoeBwIYBBpgejdmPoR6wy8W-iFRSiCnWAKEIIBmDGzxQeGlTYnuJ38oJ1WAgimBKD9RGGWgiAwYPO3dFif9r1XgqH85865NDwrlIbndNCY0BgAO7kPJEbhcKwQUQAnwomSaJwozSrQTY3GAlFWFrYqwiYRoIA"></iframe>
+<iframe style="width: 120%; height: 470px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,and,or,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoALFQC6UcgBMwADigEAhjibMARlWYZKARloMlbDjG58oAThFjJJ2QqXLN6sQQBMOxi32cwvfpoCs5iTBNfnlFFgALcgBzcPYQOQAbILEkAGFCJAQ5UjAEACcAVyIMZh4kIii1VyUyivZPLgFjTSkAyWYqAFoeBwIYBBpgejdmPoR6wy8W-iFRSiCnWAKEIIBmDGzxQeGlTYnuJ38oJ1WAgimBKD9RGGWgiAwYPO3dFif9r1XgqH85865NDwrlIbndNCY0BgAO7kPJEbhcKwQUQAnwomSaJwozSrQTY3GAlFWFrYqwiYRoIA"></iframe>
 
 ### Extension facultative
 
