@@ -5,6 +5,7 @@ layout: default
 ---
 
 
+
 <!-- # 1. Optimisation de circuit
 
 Exercices sur l'optimisation de circuits: je donne une table de vérité, et je veux le circuit correspondant. À faire sur papier.
@@ -123,3 +124,7 @@ aussi l'exo où l'additionneur ne marche pas
 10.12 Soustraction
 
 S'ils arrivent ici, ils sont des dragons.
+
+# Sources
+
+Cette page est contruite à partir de https://apprendre.modulo-info.ch/.
