@@ -97,7 +97,7 @@ Plusieurs lampes s’allument par paire. Voici la table de vérité.
 
 <img src="./img/table_de.png" 
         alt="Picture" 
-        width="320" 
+        width="360" 
         style="display: block; margin: 0 auto" />
 
 Utilisez des portes logiques OR et AND pour créer le circuit qui allume les lampes correspondantes aux nombres 1 à 6. Le nombre binaire **b<sub>2</sub>b<sub>1</sub>b<sub>0</sub>** doit allumer les lampes a-g pour afficher ce nombre dans la façon d’un dé à jeu standard.
@@ -125,7 +125,7 @@ Nous avons maintenant tous les éléments pour construire un additionneur binair
 
 <img src="./img/half_adder.png" 
         alt="Picture" 
-        width="220" 
+        width="240" 
         style="display: block; margin: 0 auto" />
 
 Le résultat A+B peut être 0, 1 ou 2. Nous avons besoin de deux bits pour représenter le résultat :
@@ -148,7 +148,7 @@ L’additionneur de 2 bits de la section précédente n’est plus suffisant. Po
 
 <img src="./img/full_adder.png" 
         alt="Picture" 
-        width="320" 
+        width="360" 
         style="display: block; margin: 0 auto" />
 
 
