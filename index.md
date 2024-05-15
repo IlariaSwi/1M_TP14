@@ -144,7 +144,6 @@ Ajoutez un circuit pour qu’on puisse également l’allumer depuis la chambre.
 - Créez une porte XOR avec 3 entrées et observez son comportement.
 - Créez maintenant une porte XOR avec 4 entrées et observez son comportement.
 
-Comment se comporte une porte XOR avec plus que 2 entrées ?
 
 <iframe style="width: 150%; height: 300px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,out,xor&data=N4NwXAbANAxg9gWwA5wHYFNUBcDOZgCWqATPlgJ5LpgDkRNUKeA2gKytQQAMAulAQBMwARggBffqgDMZStTqoGTMGw7CuvfkOEB2CUQAssqrXqM4LdlGEHNgkQA4JcAK5Zhx+a6xKLK4gCcahp89sIB+qhcnqaK5ixSQVDsoUJckR7AFCYKvglJQakikawxufEqiWpSrEXEkRBlZsrMVdY6tVpgUhIANgCGAEbovZnZ8gPDvXkquhxSmljoAB5YtCgATksABAAaAPIAStv9IOgw21LbmFgbAJfoODR9QyPRWXK0kyMzbDVQCz4S1W6zgW3QeyOJzOFwM12w90ezzEYiAA"></iframe>
 
