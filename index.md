@@ -21,8 +21,29 @@ Transformer cette table de vérité en circuit correspondant.
 
 # Portes logiques
 
+## 1. De la table de vérité au circuit logique
 
-## 1. L'affichage à sept segments
+**1.1** Créer un circuit logique qui implémente la table de vérité suivante :
+
+<img src="./img/ex11.png" 
+        alt="Picture" 
+        width="80" 
+        style="display: block; margin: 0 auto" />
+
+- Procéder d'abord avec la méthode systhématique vue en classe. 
+- Chercher, ensuite, un raccourci : peut-on trouver directement des liens entre la sortie et les entrées ?
+
+**1.2** Créer un circuit logique qui implémente la table de vérité suivante :
+
+<img src="./img/ex12.png" 
+        alt="Picture" 
+        width="120" 
+        style="display: block; margin: 0 auto" />
+
+
+- Cette fois-ci, essayez de voir d'abord les relations entre sortie et entrées. Une solution obtenue à travers la <a href="https://logic.modulo-info.ch/?mode=tryout&data=N4NwXAbANAxg9gWwA5wHYFNUBcDOZgCWqADPlgJ5LpgDkRNUKeA2gIwCs7UExAulAQAmYYlFQBDBNRoB1GgF8BqVmUrT6jOCw6iATKz4DhrMZOkANBUt2qqtDUzBtOUAMwAOQ0LC7TU2gCaVnAArlikwBR2NKFYDI7MAOzseq7s-N6uftIAWsEAThFR0nD58VpOEK6p6Uq0iQC0rK4MsWCsACxQAEYEuGCJiqhw4bbSw3GaLLrJ3F6o7e5QbawAnEMjKpFqtBPl04l6xPM+om36G1g229F7U066KW66J7q+566K4qiCRTs030E+ycHWOUE8GQWNF0HQauggrTCPkSPT6eE+UEBW2KtEBwOYoNEOkhtFcrAarhayyRri6vX6GMB1xxAJ++MJUDeJxoHgaoMRWDAHRM9PRXx+rjGuLZ9wJYN0q25HXYfMSAqFS1FYEZPw6UtZQNlHNcPBJNHYuga7A66pcWs+igA7gR8ugWGwuq5+MwZlBEt6ie5vSYXt7fG9g6tOR1g5zaj7ORBvbTwd7hVBVmmlgZvS5WKwA24C1BmKIPIXlYWLWGTK5dGGspSa25MyXfKDYx0kyWTOwvW2oNaG1AOv7ePIgA">méthode systhématique</a> serait très longue à réaliser !
+
+## 2. L'affichage à sept segments
 
 Les affichages à 7 segments permettent d’afficher des chiffres à l’aide de 7 diodes lumineuses (LED).
 
@@ -88,7 +109,7 @@ Créer le circuit qui permet d'afficher les chiffres de 0 à 7.
 
 
 
-## 2. Le dé
+## 3. Le dé
 
 Un dé de jeu peut afficher les nombres 1 à 6 à l’aide de 7 lampes.
 Plusieurs lampes s’allument par paire. Voici la table de vérité.
@@ -108,7 +129,7 @@ Utilisez des portes logiques OR et AND pour créer le circuit qui allume les lam
 
 
 
-##  3. Multiples commutateurs
+##  4. Multiples commutateurs
 La porte XOR permet d’allumer et éteindre une lampe avec des commutateurs multiples.
 
 Dans le schéma ci-dessous, on peut allumer la lumière dans une pièce à partir de la porte d’entrée et de la cuisine.
