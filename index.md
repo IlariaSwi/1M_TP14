@@ -17,13 +17,12 @@ Transformer cette table de vérité en circuit correspondant.
 - Utiliser d'abord la méthode systémathique
 - Utiliser ensuite la table de Karnaugh et comparer les solutions. -->
 
-Ici: soit mini phrase d'intro ou alors exercice table de vérité.
 
-# 2. Portes logiques: applications
 
-Nous commençons ce TP par étudier des applications des portes logiques.
+# Portes logiques
 
-## 2.2 - L'affichage à sept segments
+
+## 1. L'affichage à sept segments
 
 Les affichages à 7 segments permettent d’afficher des chiffres à l’aide de 7 diodes lumineuses (LED).
 
@@ -89,7 +88,7 @@ Créer le circuit qui permet d'afficher les chiffres de 0 à 7.
 
 
 
-## 2.3 Le dé
+## 2. Le dé
 
 Un dé de jeu peut afficher les nombres 1 à 6 à l’aide de 7 lampes.
 Plusieurs lampes s’allument par paire. Voici la table de vérité.
@@ -107,9 +106,9 @@ Utilisez des portes logiques OR et AND pour créer le circuit qui allume les lam
 
 
 
-# 3. Additionneur
 
-##  Multiples commutateurs
+
+##  3. Multiples commutateurs
 La porte XOR permet d’allumer et éteindre une lampe avec des commutateurs multiples.
 
 Dans le schéma ci-dessous, on peut allumer la lumière dans une pièce à partir de la porte d’entrée et de la cuisine.
@@ -119,8 +118,18 @@ Ajoutez un circuit pour qu’on puisse également l’allumer depuis la chambre.
 <iframe style="width: 150%; height: 383px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,out,not,or,and,xor,group&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUAnIzBABlQQE84iwByS61qfFAbQCYAnDSgBGfjQC6UAO5gAzDREALMBJHYANjHJsGRTdplckCcjADWRAOoBLACYJV-DLYJ1gjZmzdceYXlElMQBWKSgHMEEoAgBDHBZWEjMAS6JWVwJReiZE324YPiERfjDpHVtktgIuSNEAFhj4xMxleIAjSgyIgn4c71Z8-156gHYRcXCKqtZjCPswURCmhLZMAFdbJDd0jHbY8g8vRP3yP0KAxRF68LqNGG1dVn1DGDn7LbhNWIY2OAAPbr-HRHXJsYFnApFCRQYTlciVUjVWoEAKiURifjldYIRbyNAYGS2Sh8QLyMThXjRdHSQLLcSSSRoIA"></iframe>
 
 
+### Porte XOR avec plusieurs entrées
 
-## 10.6. Addition binaire
+- Créez une porte XOR avec 3 entrées et observez son comportement.
+- Créez maintenant une porte XOR avec 4 entrées et observez son comportement.
+
+Comment se comporte une porte XOR avec plus que 2 entrées ?
+
+<iframe style="width: 150%; height: 300px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,out,xor&data=N4NwXAbANAxg9gWwA5wHYFNUBcDOZgCWqATPlgJ5LpgDkRNUKeA2gKytQQAMAulAQBMwARggBffqgDMZStTqoGTMGw7CuvfkOEB2CUQAssqrXqM4LdlGEHNgkQA4JcAK5Zhx+a6xKLK4gCcahp89sIB+qhcnqaK5ixSQVDsoUJckR7AFCYKvglJQakikawxufEqiWpSrEXEkRBlZsrMVdY6tVpgUhIANgCGAEbovZnZ8gPDvXkquhxSmljoAB5YtCgATksABAAaAPIAStv9IOgw21LbmFgbAJfoODR9QyPRWXK0kyMzbDVQCz4S1W6zgW3QeyOJzOFwM12w90ezzEYiAA"></iframe>
+
+Comment se comporte une porte XOR avec plus que 2 entrées ? Qu'observez-vous ?
+
+<!-- ## 10.6. Addition binaire
 Nous avons maintenant tous les éléments pour construire un additionneur binaire. Rappelons-nous que l’addition binaire est très simple.
 
 <img src="./img/half_adder.png" 
@@ -224,13 +233,13 @@ Donc `-b = ~b + 1`.
 
 Complétez le circuit pour soustraire `a-b`. Le résultat de 10-3 devrait être 7.
 
-<iframe style="width: 150%; height: 550px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,out,not,in.nibble,out.nibble-display,adder&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQBYqoAjFSoBdKOQAmLKgFoAzOwBG5MjyggAhgBsWQocwyUBtBk1YF2nML34AmIWMksIcmRAhKVKNZp3NhAgIGUBLkSHA0wPSMLKHhWhp0ljDcgfxCouJSzDwyAOzsBBo4ZhrBcXDGUaaxYXAJSRwp1jx8gnyO2QCsEDJdAJyFxaUyiuV1tiYxzBUNyalCUPaZTsx5vXmDUEUlLGMYBDAIkdFmhwjz1rZd-P0rBGAAHNAwAK4IT3kYGhISRABOJxqzB+f3+ly4cjk6QcsH+5BIH2YFnED2Y1xktgKsHeV0eS36Im+vwBVVOLFBAIhUP40MyMHhiJYKMoLDkXXk2LeH0h+LkhOJYMm1WmlPBTW4NKgfHpjNIzPYrJythkrXY3JaXWlECJUDFcimpRJ4qskOhS1hDIR8uRirRPDyqq2Gq4NygXQERIwAHdyP8iNwuPweGIuAJ3aHbFAdVBIVA8qH+dKQ7HbP1pYTYx6oHIE6n8T1Q3YuqGXPGY1wIGo8nnK1q8o9S9BNqHHnklhWy88RESgA"></iframe>
+<iframe style="width: 150%; height: 550px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,out,not,in.nibble,out.nibble-display,adder&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQBYqoAjFSoBdKOQAmLKgFoAzOwBG5MjyggAhgBsWQocwyUBtBk1YF2nML34AmIWMksIcmRAhKVKNZp3NhAgIGUBLkSHA0wPSMLKHhWhp0ljDcgfxCouJSzDwyAOzsBBo4ZhrBcXDGUaaxYXAJSRwp1jx8gnyO2QCsEDJdAJyFxaUyiuV1tiYxzBUNyalCUPaZTsx5vXmDUEUlLGMYBDAIkdFmhwjz1rZd-P0rBGAAHNAwAK4IT3kYGhISRABOJxqzB+f3+ly4cjk6QcsH+5BIH2YFnED2Y1xktgKsHeV0eS36Im+vwBVVOLFBAIhUP40MyMHhiJYKMoLDkXXk2LeH0h+LkhOJYMm1WmlPBTW4NKgfHpjNIzPYrJythkrXY3JaXWlECJUDFcimpRJ4qskOhS1hDIR8uRirRPDyqq2Gq4NygXQERIwAHdyP8iNwuPweGIuAJ3aHbFAdVBIVA8qH+dKQ7HbP1pYTYx6oHIE6n8T1Q3YuqGXPGY1wIGo8nnK1q8o9S9BNqHHnklhWy88RESgA"></iframe> -->
 
 # Exercice optionnel
 
 ## Le feu de circulation
 
-Créer d'abord une lampe clignotante, en transformant l'input en horologe (_click droit > replace with clock_)
+Créer d'abord une lampe clignotante, en transformant l'input en horologe (_click droit > remplacer avec horologe_)
 
 <iframe style="width: 150%; height: 220px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUAjAQwCcAGVBATziLAHIrq2p8UBtAEwAOWlBEBdKAEsAJmACMWGABsY1dtSIzuMqUjjLKjdgAUAGmwxSC9YExbtr3XmD4ixtSbLABmNBgB3KU1+Ph8oeXFxNCA"></iframe>
 
