@@ -263,16 +263,16 @@ Créer d'abord une lampe clignotante, en transformant l'input en horloge (_click
 
 <iframe style="width: 150%; height: 220px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUAjAQwCcAGVBATziLAHIrq2p8UBtAEwAOWlBEBdKAEsAJmACMWGABsY1dtSIzuMqUjjLKjdgAUAGmwxSC9YExbtr3XmD4ixtSbLABmNBgB3KU1+Ph8oeXFxNCA"></iframe>
 
-Construire maintenant un feu de circulation. Le feu doit changer de couleur à chaque cycle d'horologe : vert, jaune, rouge, vert, jaune, rouge...
+Construire maintenant un feu de circulation. Le feu doit changer de couleur à chaque cycle d'horloge : vert, jaune, rouge, vert, jaune, rouge...
 
 - Insérer les deux lampes qui manquent. Avec un click droit vous pouvez en modifier la forme et la couleur.
 - De combien de bits aurait-on besoin pour représenter ces trois états ?
 
 <iframe style="width: 150%; height: 490px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar,not,and,or,clock,counter&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlVMAbGTAawAZUEBPOIsAckupvanxQDaARjoBWKAA5RAXSgBLACZghfIgCc5MJQCY6ejACMAhmobBmrDsbW9+YAaMeSZ8nVhhU1HNUQW8FckhwFEZMHAAKABrsGNgArqTqZhZsnDAJCOq2MILaAOziInSycgT2AMxQACyy6QgcogC0AJwxaGhAA"></iframe>
 
-**Astuce** : on ne peut pas utiliser un seul horologe, et créer un circuit qui arrive à distinguer trois états. Il nous faut de la mémoire. Ici, un composant très commun qui s'appelle compteur. Essayez de connecter l'horologe au bon endroit, et explorez les sorties pour créer le circuit correspondant au feu de circulation.
+**Astuce** : on ne peut pas utiliser un seul horloge, et créer un circuit qui arrive à distinguer trois états. Il nous faut de la mémoire. Ici, un composant très commun qui s'appelle compteur. Essayez de connecter l'horloge au bon endroit, et explorez les sorties pour créer le circuit correspondant au feu de circulation.
 
-- Êtes-vous capable de trouver une solution pour que le feu passe directement de rouge à vert, sans l'étape intermédiaire où il est éteint ?
+- Êtes-vous capables de trouver une solution pour que le feu passe directement de rouge à vert, sans l'étape intermédiaire où il est éteint ?
 
 <a href="https://logic.modulo-info.ch/?mode=full&showonly=in,bar,not,and,or,clock,counter&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlVMAbGTAawAZUEBPOIsAckupvanxQDaARjoBWKAA5RAXSgBLACZghfIgCc5MJQCY6ejACMAhmobBmrDsbW9+YARADM4iXVmKw2rDCpqOaogVeBTkkOAojJg4ABQANdkMTIUYWNnZrWxhBJ3EhKXclEW9fDiYiCioAd2DQ8MiY+MS1bRTLdJNM7OcobQBON3lClRCwiKj2OITvAFdSdTMLNOxZhHVO+21u3pl5AnshLyFHWRhphA4hABYAWiEIXgM5Mi9l0k8MAhgEBdSOT4R1gJnLlHAM5HshAB2WBnZQSDBGAgKH5tRFBPhZeyibQuMF7YS9HoDU7nbRCBFI5LmX7sNGA7G5fK7DZeTYnWHaS4UhQtamopH0nE9frufFC7QQdmkyHcxytNJ0jGCRyXcTaSE7cEbCTCqVgUEfL5UxZ-L6AxwQXIi5mOFQk-XaNAYSpyAKCYRQA6yARknrezmegY+6FCITeq6eyHh8S272OVmSqDCHU4uOs45JiPaLygORGexAiB0KCQtzSNDRonhnVCXqV7Q63P5gQ+qQ9UFQdhIdjScvhy7CqBNgvqtW6Tvd3sVpMdo5DkB5kdtlXidjVKdToA">Solution</a>.
 
