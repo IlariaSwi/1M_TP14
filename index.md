@@ -52,7 +52,7 @@ Les affichages à 7 segments permettent d’afficher des chiffres à l’aide de
 
 
 - Ajoutez les entrées et les lampes qui manquent pour compléter cet affichage à 7 segments.
-- Tournez la barre avec _click droit > display > vertical bar_.
+- Tournez la barre avec _click droit > Affichage > Barre verticale_.
 - Ajoutez les entrées et ajoutez les étiquettes a-g. Pour ajouter une étiquette: _click droit > set_name_.
 - Affichez un nombre entre 0 et 9.
 
@@ -74,7 +74,7 @@ Les 7 diodes lumineuses (LED) permettent d’afficher les chiffres de 0 à 9. L�
 La porte NON inverse un signal.
 
 - Ajoutez les connexions pour afficher 0 ou 1 selon le signal sur l’entrée b0.
-- Ensuite, convertissez l'input en horologe, pour alterner 0 et 1 chaque seconde: _click droit > changer en horologe_
+- Ensuite, convertissez l'input en horloge, pour alterner 0 et 1 chaque seconde: _click droit > Remplacer par horloge_
 
 <iframe style="width: 150%; height: 400px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoAjAFYqAXSjkAJmAH8CAQxxNmAC3IBzFexDyANjIlIAwoSQJ5pMAgBOAVyIZmPJEXVVmtBsuev2nMFwALHyCABxiEtLMVAC0PMwYBDAINMD0jCxJCH4w3ALhUIERlDIATLC2CDIAzBiUAp4ZrAQ53CFF4lIyAmgYAO7k1kTcXLKC4qMCgqUTAtVQYqJoQA"></iframe>
 
@@ -259,7 +259,7 @@ Complétez le circuit pour soustraire `a-b`. Le résultat de 10-3 devrait être 
 
 ## Le feu de circulation
 
-Créer d'abord une lampe clignotante, en transformant l'input en horologe (_click droit > remplacer avec horologe_)
+Créer d'abord une lampe clignotante, en transformant l'input en horloge (_click droit > Remplacer par horloge_)
 
 <iframe style="width: 150%; height: 220px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUAjAQwCcAGVBATziLAHIrq2p8UBtAEwAOWlBEBdKAEsAJmACMWGABsY1dtSIzuMqUjjLKjdgAUAGmwxSC9YExbtr3XmD4ixtSbLABmNBgB3KU1+Ph8oeXFxNCA"></iframe>
 
