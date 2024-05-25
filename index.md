@@ -78,6 +78,8 @@ La porte NON inverse un signal.
 
 <iframe style="width: 150%; height: 400px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoAjAFYqAXSjkAJmAH8CAQxxNmAC3IBzFexDyANjIlIAwoSQJ5pMAgBOAVyIZmPJEXVVmtBsuev2nMFwALHyCABxiEtLMVAC0PMwYBDAINMD0jCxJCH4w3ALhUIERlDIATLC2CDIAzBiUAp4ZrAQ53CFF4lIyAmgYAO7k1kTcXLKC4qMCgqUTAtVQYqJoQA"></iframe>
 
+<a href="https://logic.modulo-info.ch/?mode=full&data=N4NwXAbANAxg9gWwA5wHYFNUBcDOZgCWqADPlgJ5LpgDkRNUKeA2gOzFQCMArMQLpQCAEzCcOqAIYJqNABYEA5rIYgJAG1GCcAYTQ4sE7GCwAnAK7oAvlBqsc6BcRplKMuw4ZMwzACzsuABz8giI0xAC0rDTWqHBYpMAUVLSxWJ5wLJxBUD7BRKIATFBwZliiAMzWRJwuyXSo6Sz+uQLCopyW1gDuBCboLMxiXAKDnFwFI5zlUMGDHBNQg9Plk9M+q1DcfHyWQA">Solution</a>.
+
 ### Décoder 0 à 3
 Le tableau ci-dessous montre les segments à allumer pour afficher les nombres 0 à 3 d’un affichage à 7 segments.
 
@@ -99,6 +101,8 @@ Astuce - Essayez de trouver le circuit logique pour chaque colonne. C’est-à-d
 Certaines colonnes sont identiques, donc vous pouvez utiliser le même signal.
 
 <iframe style="width: 150%; height: 470px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,not,and,or,7seg&data=N4NwXAbANA9gDgFwM5mAXygYxgWzjAOwFMDlUBLAgBlQQE84iwByS5qfFAbQHYqoALFQC6UcgBMwADigEAhjibMARlWYZKARloMlbDjG58oAThFjJJ2QqXLN6sQQBMOxi32cwvfpoCs5iTBNfnlFFgALcgBzcPYQOQAbILEkAGFCJAQ5UjAEACcAVyIMZh4kIii1VyUyivZPLgFjTSkAyWYqAFoeBwIYBBpgejdmPoR6wy8W-iFRSiCnWAKEIIBmDGzxQeGlTYnuJ38oJ1WAgimBKD9RGGWgiAwYPO3dFif9r1XgqH85865NDwrlIbndNCY0BgAO7kPJEbhcKwQUQAnwomSaJwozSrQTY3GAlFWFrYqwiYRoIA"></iframe>
+
+<a href="https://logic.modulo-info.ch/?mode=full&data=N4NwXAbANAxg9gWwA5wHYFNUBcDOZgCWqADPlgJ5LpgDkRNUKeA2gOzFQAsxAulAQBMwADiioAhgmo0ARsRoBffqgCMZStPqM4LdlACcvfkP1jJ0mSsXKATOqq0tTMGw4qArEcFgVHCVNoACwIAc0CGEHEAGx9+HABhNBwscWwwLAAnAFd0JRpWHHQQ+XtpAqKGZ2ZOPRVhLyEaYgBaVmtUOCxSYAoHGg6sSp0XOo5uPiIfGyg4LKwfAGYlVIFu3ukVoZYF3ygbDwnUEc4oA5m5nwglOAy1jVobrZcdjk9DkdZT4T5Z+ZV9JQDNQ9e79TpPZgedynGzud4qFTneY2YjXDLA9YPDIQmyGU5nSbMfZ7Gw-C42JZKADuBAy6BYzFMED4kLcLNEKlJUEhCy4LJUvJUrBZpjq-NMRkhpgWIvxLJRJPZexU8t5XKJbjh3IFp04-OgcJ4CiAA">Solution</a>.
 
 ### Extension facultative
 
@@ -125,6 +129,7 @@ Utilisez des portes logiques OR et AND pour créer le circuit qui allume les lam
 <iframe style="width: 150%; height: 350px; border: 0" src="https://logic.modulo-info.ch/?mode=full&showonly=in,bar,and,or&data=N4NwXAbANA9gDgFwM5mHATvAhgcywgSxgDsARAUwBssBPMARgAYBfKAYxgFs4TzjlUBYo1QIaccmADkQqVB4oA2hEZQALIwC6UAgBMwAdijEsnSVIBGjOSCyUGrIfVHjzs+TCUqoADi079H2NTcwt6KUdiACYXCWl3BTBlVXoo-z0wKOgTM2kLKJs7BygLLHQRYDE4yzK5RMUAZj8oBvT9VRzzLDldAiQ4ajopOAAPCJKy50rXPNqPJSbVAzaGYNzLHr6B2mlR8dL0GOnqg7rPJLVWqGXtGHQCPgRpJDkMqLXzXU3+wd2x1gODVioTm9UWUFSKwaH2kbG+2yGewBZTUwNm6DOSjUzRuATAahhUgAZvDfsN-hN0ABWNE1DHzC7NVraDJUwnkUk7cn7MoQWmnBmKbEpNIs-TZELSHCcxH-ZjMIA"></iframe>
 
 
+<a href="https://logic.modulo-info.ch/?mode=full&data=N4NwXAbANA9gDgFwM5mHATvAhgcywgSxgDsARAUwBssBPMARgAYBfKAYxgFs4TzjlUBYo1QIaccmADkQqVB4oA2hEZQALIwC6UAgBMwAdijEsnSVIBGjOSCyUGrIfVHjzs+TCUqoADi079H2NTcwt6KUdiACYXCWl3BTBlVXoo-z0wKOgTM2kLKJs7BygLLHQRYDE4yzK5RMUAZj8oBvT9VRzzLDldAiQ4ajopOAAPCJKy50rXPNqPJSbVAzaGYNzLHr6B2mlR8dL0GOnqg7rPJLVWqGXtGHQCPgRpJDkMqLXzXU3+wd2x1gODVioTm9UWUFSKwaH2kbG+2yGewBZTUwNm6DOSjUzRuATAahhUgAZvDfsN-hN0ABWNE1DHzC7NVraDJUwnkUk7cn7MoQWmnBmKbEpNIs-TZELSHCcxEUu4VKrmO6YpJRKJsphUlnEJIATgh-hgAFcnvR6KwsMRdAqZlJLV9BWkNVStTodYpUhCGrcTQw1MxWAB3AjochKRRGKLaRRBXXRrIG6NmqD+D30KAQaNBVLx6D0b1QD0E+hJglqXMtCtazTMIA">Solution</a>.
 
 
 
